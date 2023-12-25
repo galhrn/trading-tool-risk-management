@@ -19,7 +19,7 @@ import { useEffect, useState } from "react";
 
 const { Title } = Typography;
 
-export const App = () => {
+const App = () => {
   const [form] = Form.useForm();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
@@ -404,3 +404,5 @@ export const App = () => {
     </Layout>
   );
 };
+
+export default App;
